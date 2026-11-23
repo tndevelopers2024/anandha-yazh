@@ -50,6 +50,7 @@ export type Service = {
 export const SERVICES: Service[] = [
   {
     id: 'psychiatry',
+    image: '/images/services/psychiatry.jpg',
     no: '01',
     title: 'Child & Adolescent Psychiatry',
     short: "Comprehensive child and adolescent psychiatry in Chennai — careful evaluation and care, made for young minds.",
@@ -62,6 +63,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: 'autism',
+    image: '/images/services/autism.jpg',
     no: '02',
     title: 'Autism & Neurodevelopmental Care',
     short: "Autism assessment and diagnosis for children, with support built around how your child experiences the world.",
@@ -74,6 +76,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: 'adhd',
+    image: '/images/services/adhd.jpg',
     no: '03',
     title: 'ADHD & Attention Difficulties',
     short: "ADHD assessment and treatment for children — when focus, restlessness or impulsivity get in the way.",
@@ -86,6 +89,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: 'sld',
+    image: '/images/services/sld.jpg',
     no: '04',
     title: 'Specific Learning Disorder',
     short: "Learning difficulties assessment for bright children who find reading, writing or maths unexpectedly hard.",
@@ -98,6 +102,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: 'idd',
+    image: '/images/services/idd.jpg',
     no: '05',
     title: 'Intellectual Developmental Disorder',
     short: "Child developmental assessment that recognises each child’s abilities and supports growth at their own pace.",
@@ -110,6 +115,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: 'emotional',
+    image: '/images/services/emotional.jpg',
     no: '06',
     title: 'Emotional & Behavioural Wellbeing',
     short: "Anxiety, low mood, OCD, school refusal, tantrums and aggressive behaviour — the feelings behind the behaviour.",
@@ -122,6 +128,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: 'adolescent',
+    image: '/images/services/adolescent.jpg',
     no: '07',
     title: 'Adolescent Mental Health',
     short: "A confidential space for teenagers — depression, exam stress, anger, screen habits and more.",
@@ -134,6 +141,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: 'therapy',
+    image: '/images/services/therapy.jpg',
     no: '08',
     title: 'Psychotherapeutic Interventions',
     short: "Behavioural therapy, play therapy, CBT and anger management — practising new ways of coping.",
@@ -146,6 +154,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: 'family',
+    image: '/images/services/family.jpg',
     no: '09',
     title: 'Parent & Family Support',
     short: "Parent training and parent counselling — because when parents feel supported, children feel it too.",
@@ -251,7 +260,7 @@ export const AGES = [
     label: 'Early Childhood',
     range: 'Birth – 5 years',
     photo: 'A toddler playing on the floor with blocks or a parent',
-    image: '',
+    image: '/images/services/idd.jpg',
     title: 'The world, discovered.',
     copy:
       'In the earliest years, every sound, gesture and game is a building block. We look closely at how little ones grow, connect, communicate and express what they feel.',
@@ -273,7 +282,7 @@ export const AGES = [
     label: 'Adolescents & Teenagers',
     range: '13 – 18 years',
     photo: 'A teenager in natural light, candid and thoughtful',
-    image: '',
+    image: '/images/services/adolescent.jpg',
     title: 'The world, questioned.',
     copy:
       'The teenage years are intense, complex and full of becoming. We offer young people a confidential, respectful space — and their families a steady guide.',
@@ -284,7 +293,7 @@ export const AGES = [
     label: 'Adults',
     range: '18+ years',
     photo: 'An adult in a calm, sunlit space, looking hopeful',
-    image: '',
+    image: '/images/hero-adult.jpg',
     title: 'The world, rebalanced.',
     copy:
       'Work, relationships, parenthood and ageing bring their own pressures. We offer adults confidential, specialised psychiatric care — with the same warmth we bring to every child.',
