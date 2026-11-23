@@ -103,7 +103,7 @@ const jsonLd = {
       description: DESCRIPTION,
       medicalSpecialty: ['Psychiatric', 'Pediatric'],
       telephone: ['+91 75020 76929', '+91 86674 13791'],
-      email: 'dharuridu@gmail.com',
+      email: 'anandhayazh.clinic@gmail.com',
       areaServed: { '@type': 'City', name: 'Chennai' },
       address: { '@type': 'PostalAddress', addressLocality: 'Chennai', addressRegion: 'Tamil Nadu', addressCountry: 'IN' },
       availableService: [

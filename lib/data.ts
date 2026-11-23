@@ -19,7 +19,7 @@ export const CONTACT = {
   ],
   whatsapp: 'https://wa.me/917502076929?text=' +
     encodeURIComponent('Hello Anandha Yazh, I would like to book an appointment.'),
-  email: 'dharuridu@gmail.com',
+  email: 'anandhayazh.clinic@gmail.com',
   location: 'Chennai, Tamil Nadu, India',
 };
 

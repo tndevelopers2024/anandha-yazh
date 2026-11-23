@@ -5,6 +5,7 @@ import { createContext, useCallback, useContext, useEffect, useRef, useState, ty
 import { ADULT_SERVICES, ARTICLES, CONTACT, DOCTOR, SERVICES } from '@/lib/data';
 import Photo from './Photo';
 import { Arrow, Close, Mail, Phone, WhatsApp } from './Icons';
+import BookingModal from './BookingModal';
 
 type Panel =
   | { kind: 'service'; id: string }
@@ -62,8 +63,9 @@ export function ExploreProvider({ children }: { children: ReactNode }) {
     <Ctx.Provider value={{ open, close }}>
       {children}
       <AnimatePresence>
-        {panel && (
-          <motion.div className="fixed inset-0 z-[80]" initial="hidden" animate="show" exit="hidden">
+        {panel?.kind === 'booking' && <BookingModal key="booking" onClose={close} />}
+        {panel && panel.kind !== 'booking' && (
+          <motion.div key="drawer" className="fixed inset-0 z-[80]" initial="hidden" animate="show" exit="hidden">
             <motion.div
               className="absolute inset-0 bg-ink/50 backdrop-blur-sm"
               variants={{ hidden: { opacity: 0 }, show: { opacity: 1 } }}
