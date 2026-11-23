@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 // TODO before launch: set NEXT_PUBLIC_SITE_URL to the live domain (used for canonical + share image URLs).
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.anandhayazh.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://anandha-yazh.vercel.app';
 const TITLE = 'Child Psychiatrist in Chennai | Anandha Yazh – Mental Health & Wellbeing Centre';
 const DESCRIPTION =
   'Child & adolescent psychiatrist in Chennai. NIMHANS gold medallist Dr. Dharani Ramamoorthy (MBBS, MD, DM) — autism & ADHD assessment, learning difficulties, anxiety, school refusal, aggressive behaviour, teen depression & screen addiction. Adult psychiatry & de-addiction too. Call 75020 76929.';
