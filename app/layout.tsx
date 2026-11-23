@@ -5,7 +5,7 @@ import './globals.css';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://anandha-yazh.vercel.app';
 const TITLE = 'Child Psychiatrist in Chennai | Anandha Yazh – Mental Health & Wellbeing Centre';
 const DESCRIPTION =
-  'Child & adolescent psychiatrist in Chennai. NIMHANS gold medallist Dr. Dharani Ramamoorthy (MBBS, MD, DM) — autism & ADHD assessment, learning difficulties, anxiety, school refusal, aggressive behaviour, teen depression & screen addiction. Adult psychiatry & de-addiction too. Call 75020 76929.';
+  'Mental Health & Wellbeing Centre, Chennai. NIMHANS gold medallist Dr. Dharani Ramamoorthy (MBBS, MD, DM) — autism & ADHD assessment, learning difficulties, anxiety, behaviour & teen mental health; for adults, depression, anxiety & OCD, stress & sleep, de-addiction and women’s & elderly mental health. Call 75020 76929.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -64,13 +64,13 @@ export const metadata: Metadata = {
     siteName: 'Anandha Yazh — Mental Health & Wellbeing Centre',
     title: 'Child Psychiatrist in Chennai — Dr. Dharani Ramamoorthy, NIMHANS Gold Medallist',
     description:
-      'Autism & ADHD assessment, learning difficulties, anxiety, behaviour and teen mental health. Adult psychiatry too. Anandha Yazh — Mental Health & Wellbeing Centre, Chennai.',
+      'Mental Health & Wellbeing Centre, Chennai. Autism & ADHD assessment, learning difficulties, anxiety, behaviour and teen mental health. For adults: depression, anxiety & OCD, stress & sleep, de-addiction, and women’s & elderly mental health.',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Anandha Yazh — Child & Adolescent Psychiatry, Chennai. Dr. Dharani Ramamoorthy, MBBS, MD, DM (NIMHANS).' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Child Psychiatrist in Chennai — Dr. Dharani Ramamoorthy',
-    description: 'NIMHANS gold medallist. Autism, ADHD, learning, anxiety & teen mental health. Anandha Yazh, Chennai.',
+    description: 'Mental Health & Wellbeing Centre, Chennai. Autism, ADHD, learning, anxiety & teen mental health; depression, anxiety, de-addiction & more for adults.',
     images: ['/og-image.jpg'],
   },
   icons: {
