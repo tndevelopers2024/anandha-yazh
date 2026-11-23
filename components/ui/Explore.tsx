@@ -159,7 +159,7 @@ function PanelBody({ panel, open }: { panel: Exclude<Panel, null>; open: (p: Exc
     const a = ADULT_SERVICES.find((x) => x.id === panel.id)!;
     return (
       <>
-        <Photo src={a.image} alt={a.title} brief={a.photo} tint={a.color} className="h-64 w-full shrink-0" />
+        <Photo src={a.image} alt={a.title} brief={a.photo} tint={a.color} className="aspect-[3/2] w-full shrink-0" />
         <div className="px-7 pb-10 pt-8">
           <p className="eyebrow text-teal">Adults · Specialised care · {a.no}</p>
           <h3 className="display mt-3 text-3xl text-teal-deep">{a.title}</h3>

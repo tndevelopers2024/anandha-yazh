@@ -47,7 +47,7 @@ function CardRow({ cards, accent }: { cards: Card[]; accent: 'coral' | 'teal' })
           <li key={c.key} className="w-[80%] shrink-0 snap-start sm:w-auto lg:col-span-4">
             <button onClick={c.onOpen} className="group flex h-full w-full flex-col text-left" aria-label={`${c.title} — explore more`}>
               <div className="relative overflow-hidden rounded-[1.75rem]">
-                <Photo src={c.image} alt={c.title} brief={c.photo} tint={c.tint} className="aspect-[4/3] w-full transition-transform duration-700 ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.03]" />
+                <Photo src={c.image} alt={c.title} brief={c.photo} tint={c.tint} className={`${accent === 'teal' ? 'aspect-[3/2]' : 'aspect-[4/3]'} w-full transition-transform duration-700 ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.03]`} />
                 <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 font-heading text-xs font-bold text-[#1F2A2A]">{c.no}</span>
               </div>
               <h3 className={`mt-5 font-heading text-lg font-bold leading-snug text-[#1F2A2A] transition-colors ${hover}`}>
