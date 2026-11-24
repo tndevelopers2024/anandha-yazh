@@ -65,13 +65,13 @@ export const metadata: Metadata = {
     title: 'Child Psychiatrist in Chennai — Dr. Dharani Ramamoorthy, NIMHANS Gold Medallist',
     description:
       'Mental Health & Wellbeing Centre, Chennai. Autism & ADHD assessment, learning difficulties, anxiety, behaviour and teen mental health. For adults: depression, anxiety & OCD, stress & sleep, de-addiction, and women’s & elderly mental health.',
-    images: [{ url: '/og-image-5.jpg', width: 1200, height: 630, alt: 'Anandha Yazh — Mental Health & Wellbeing Centre, Chennai. Care for children, teens and adults with Dr. Dharani Ramamoorthy, MBBS, MD, DM (NIMHANS).' }],
+    images: [{ url: '/og-image-6.jpg', width: 1200, height: 630, alt: 'Anandha Yazh — Mental Health & Wellbeing Centre, Chennai. Care for children, teens and adults with Dr. Dharani Ramamoorthy, MBBS, MD, DM (NIMHANS).' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Child Psychiatrist in Chennai — Dr. Dharani Ramamoorthy',
     description: 'Mental Health & Wellbeing Centre, Chennai. Autism, ADHD, learning, anxiety & teen mental health; depression, anxiety, de-addiction & more for adults.',
-    images: ['/og-image-5.jpg'],
+    images: ['/og-image-6.jpg'],
   },
   icons: {
     icon: [
@@ -97,7 +97,7 @@ const jsonLd = {
       '@id': `${SITE_URL}/#clinic`,
       name: 'Anandha Yazh — Mental Health & Wellbeing Centre',
       url: SITE_URL,
-      image: `${SITE_URL}/og-image-5.jpg`,
+      image: `${SITE_URL}/og-image-6.jpg`,
       logo: `${SITE_URL}/icon-512.png`,
       slogan: 'A safe space for everyone.',
       description: DESCRIPTION,

@@ -11,7 +11,7 @@ export default function Logo({ className = '', alt = 'Anandha Yazh — Mental He
       src={asset('/images/anandha-yazh-logo-1000.png')}
       alt={alt}
       width={1000}
-      height={537}
+      height={543}
       className={`h-auto select-none ${className}`}
       draggable={false}
     />

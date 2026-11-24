@@ -16,10 +16,10 @@ export const useIntro = () => useContext(Ctx);
 
 const ease = [0.22, 1, 0.36, 1] as const;
 const PARTS = [
-  { k: 'mark', h: 48.42 },
-  { k: 'word', h: 31.66 },
-  { k: 'desc', h: 10.61 },
-  { k: 'tag', h: 9.31 },
+  { k: 'mark', h: 46.99 },
+  { k: 'word', h: 31.2 },
+  { k: 'desc', h: 14.19 },
+  { k: 'tag', h: 7.62 },
 ];
 
 export function IntroProvider({ children }: { children: ReactNode }) {
@@ -63,7 +63,7 @@ export function IntroProvider({ children }: { children: ReactNode }) {
                   />
                   <motion.div layoutId="ay-logo" className="relative" transition={{ duration: 0.75, ease }}>
                     {PARTS.map((p, i) => (
-                      <div key={p.k} className="relative overflow-hidden" style={{ aspectRatio: `1000 / ${(p.h * 537) / 100}` }}>
+                      <div key={p.k} className="relative overflow-hidden" style={{ aspectRatio: `1000 / ${(p.h * 543) / 100}` }}>
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <motion.img
                           src={asset(`/images/logo-part-${p.k}.png`)}
